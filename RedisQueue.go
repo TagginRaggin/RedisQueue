@@ -29,6 +29,7 @@ func NewProducerClient(address string, pass string, q string, db int) ProducerCl
 	producer.queue = q
 	return producer
 }
+
 func (p *ProducerClient) Enqueue(message interface{}) (bool, error) {
 	/*
 		jformat, err := json.Marshal(message)
