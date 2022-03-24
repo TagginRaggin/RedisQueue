@@ -1,4 +1,4 @@
-package RedisQueue
+package github.com/TagginRaggin/RedisQueue
 
 import (
 	"context"

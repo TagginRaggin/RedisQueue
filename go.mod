@@ -1,4 +1,4 @@
-module RedisQueue
+module github.com/TagginRaggin/RedisQueue
 
 go 1.17
 
